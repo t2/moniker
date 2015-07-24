@@ -4,33 +4,30 @@ body {
 
 .content {
   position: relative;
-  width: 354px;
-  height: 393px;
+  width: 708px;
+  height: 786px;
   margin: 70px auto;
 }
 
 span {
   position: absolute;
-  top: 185px;
-  left: 45px;
-  width: 68px;
+  top: 495px;
+  left: 90px;
+  width: 135px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   text-align: center;
   color: white;
-  font-size: 10px;
+  font-size: 20px;
   font-weight: 300;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
-
-img {
-  margin-bottom: 50px;
 }
 
 input {
   width: 100%;
   height: 70px;
+  margin-bottom: 50px;
   text-align: center;
   border: none;
   border-bottom: 1px solid #ccc;
