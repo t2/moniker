@@ -11,7 +11,6 @@ body {
 
 .content-container {
   position: relative;
-  margin: 40px auto;
 }
 
 /* Problem */
@@ -29,7 +28,7 @@ body {
 /* Content */
 
 .content {
-  position: relative;
+  width: 540px;
 }
 
 span {
@@ -44,6 +43,8 @@ span {
   color: white;
   font-size: 20px;
 }
+
+/*480px*/
 
 input {
   height: 70px;
