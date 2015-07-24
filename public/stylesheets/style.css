@@ -1,18 +1,40 @@
 body {
+  padding-top: 20px;
   background-color: #ECF0F1;
+  font-weight: 300;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
+
+.header h1 {
+  font-size: 3em;
+}
+
+.content-container {
+  position: relative;
+  margin: 40px auto;
+}
+
+/* Problem */
+
+.the-problem h1 {
+  margin-bottom: 30px;
+}
+
+.the-problem p {
+  font-size: 1.2em;
+}
+
+
+/* Content */
 
 .content {
   position: relative;
-  width: 708px;
-  height: 786px;
-  margin: 70px auto;
 }
 
 span {
   position: absolute;
-  top: 500px;
-  left: 90px;
+  top: 372px;
+  left: 66px;
   width: 135px;
   overflow: hidden;
   white-space: nowrap;
@@ -20,22 +42,20 @@ span {
   text-align: center;
   color: white;
   font-size: 20px;
-  font-weight: 300;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 input {
-  width: 100%;
   height: 70px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align: center;
   border: none;
   border-bottom: 1px solid #ccc;
   background-color: transparent;
   outline: 0;
   color: #4A4A4A;
-
   font-size: 40px;
-  font-weight: 300;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+img {
+  width: 100%;
 }
