@@ -1,6 +1,6 @@
-# moniker
+# Moniker
 
-Check to make sure your app names look great, without a lot of recompiling.
+Moniker gives you or your client a playground to come up with the perfect iOS app name. See exactly how your app's name will look on the iPhone screen.
 
 ## License
 
