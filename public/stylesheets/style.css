@@ -1,67 +1,45 @@
 body {
   padding-top: 20px;
-  background-color: #ECF0F1;
   font-weight: 300;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
+  background-color: #ECF0F1; }
 
 .content-container {
-  position: relative;
-}
+  position: relative; }
+  .content-container .introduction h1 {
+    margin-bottom: 0; }
+  .content-container .introduction h3 {
+    margin-top: 0;
+    margin-bottom: 25px; }
+  .content-container .introduction p, .content-container .introduction li {
+    font-size: 1.4em;
+    line-height: 1.5em; }
+  .content-container .introduction p {
+    margin: 0 0 25px; }
+  .content-container .tool {
+    width: 540px; }
+    .content-container .tool span {
+      position: absolute;
+      top: 372px;
+      left: 66px;
+      width: 135px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      text-align: center;
+      color: white;
+      font-size: 20px; }
+    .content-container .tool input {
+      height: 70px;
+      margin-bottom: 20px;
+      text-align: center;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      background-color: transparent;
+      outline: 0;
+      color: #4A4A4A;
+      font-size: 40px; }
+    .content-container .tool img {
+      width: 540px; }
 
-/* Problem */
-
-h1 {
-  margin-bottom: 0;
-}
-
-h3 {
-  margin-top: 0;
-  margin-bottom: 25px;
-}
-
-.the-problem {
-  font-size: 1.4em;
-  line-height: 1.5em;
-}
-
-p {
-  margin: 0 0 25px;
-}
-
-/* Content */
-
-.content {
-  width: 540px;
-}
-
-span {
-  position: absolute;
-  top: 372px;
-  left: 66px;
-  width: 135px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  text-align: center;
-  color: white;
-  font-size: 20px;
-}
-
-/*480px*/
-
-input {
-  height: 70px;
-  margin-bottom: 20px;
-  text-align: center;
-  border: none;
-  border-bottom: 1px solid #ccc;
-  background-color: transparent;
-  outline: 0;
-  color: #4A4A4A;
-  font-size: 40px;
-}
-
-img {
-  width: 540px;
-}
+/*# sourceMappingURL=style.css.map */

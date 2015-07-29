@@ -1,5 +1,5 @@
 .row.content-container
-  .col-md-5.col-xs-12.the-problem
+  .col-md-5.col-xs-12.introduction
     %h1 MONIKER
     %h3 Naming Things is Hard
     %p
@@ -23,7 +23,7 @@
       with love,
       %a{ href: 'https://twitter.com/trentkocurek', target: '_blank' } @trentkocurek
   .col-md-6.col-md-offset-1.col-xs-12.text-center
-    .content
+    .tool
       %input.app-name{ placeholder: 'App Name', type: 'text', value: params[:name] || 'App Name', onfocus: 'this.value = this.value;' }
       %span.app-name-container App Name
       %img{ alt: 'iPhone', src: 'images/iphone@2x.png' }
