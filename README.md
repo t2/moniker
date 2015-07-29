@@ -1,6 +1,9 @@
 # Moniker
 
+![Moniker iPhone](https://raw.github.com/t2/moniker/master/public/images/iphone.png)
+
 Moniker gives you or your client a playground to come up with the perfect iOS app name. See exactly how your app's name will look on the iPhone screen.
+
 
 ## License
 
